@@ -1,3 +1,35 @@
 .App {
   text-align: center;
+  
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid;
+  background: lightblue;
+
+}
+input, button{
+  margin: 1%;
+  width: 50%;
+  
+}
+
+input{
+  background: #88ccff;
+}
+.smurfList{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #88ccff;
+}
+.smurf{
+  border: solid;
+  border-radius: 25px;
+  margin: 2%;
+  width: 30%;
+  background: whitesmoke;
 }
